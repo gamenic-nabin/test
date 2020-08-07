@@ -8,4 +8,4 @@ docker-compose up -d nginx mysql
 
 docker-compose exec workspace bash
 
-composer-update
+composer-update or composer-install
