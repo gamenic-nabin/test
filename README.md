@@ -17,6 +17,7 @@ docker-compose up -d nginx mysql
 
 docker-compose exec workspace bash
 
+cp .env.example .env
 composer update or composer install
 
 
