@@ -18,3 +18,15 @@ docker-compose up -d nginx mysql
 docker-compose exec workspace bash
 
 composer update or composer install
+
+
+# setup database
+connect from sequel pro or workbench
+user root
+password root
+and create new database
+
+update .env file inside blog 
+
+# in workspace 
+php artisan migrate
