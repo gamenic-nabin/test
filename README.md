@@ -2,6 +2,7 @@
 Clone the project
 
 # clone laradock
+cd laradock
 git clone https://github.com/Laradock/laradock.git
 
 cp env-example .env
