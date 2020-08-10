@@ -30,10 +30,10 @@ abstract class DuskTestCase extends BaseTestCase
     protected function driver()
     {
         $options = (new ChromeOptions)->addArguments([
-            '--disable-gpu',
-            '--headless',
+            //'--disable-gpu',
+            //'--headless',
             '--window-size=1920,1080',
-            '--no-sandbox',
+            '--no-sandbox'
         ]);
 
         if (env('USE_SELENIUM', 'false') == 'true') {
