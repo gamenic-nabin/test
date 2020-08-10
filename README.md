@@ -10,7 +10,7 @@ cp env-example .env
 APP_CODE_PATH_HOST=../blog/
 
 # go to laradock folder 
-docker-compose build workspace php-fpm nginx mysql
+docker-compose build workspace php-fpm nginx mysql selenium
 
 
 docker-compose up -d nginx mysql
