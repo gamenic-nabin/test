@@ -13,7 +13,7 @@ APP_CODE_PATH_HOST=../blog/
 docker-compose build workspace php-fpm nginx mysql selenium
 
 
-docker-compose up -d nginx mysql
+docker-compose up -d nginx mysql selenium
 
 docker-compose exec workspace bash
 
