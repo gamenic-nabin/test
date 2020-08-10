@@ -2,6 +2,7 @@
 Clone the project
 
 # clone laradock
+cd laradock
 git clone https://github.com/Laradock/laradock.git
 
 cp env-example .env
@@ -10,10 +11,10 @@ cp env-example .env
 APP_CODE_PATH_HOST=../blog/
 
 # go to laradock folder 
-docker-compose build workspace php-fpm nginx mysql
+docker-compose build workspace php-fpm nginx mysql selenium
 
 
-docker-compose up -d nginx mysql
+docker-compose up -d nginx mysql selenium
 
 docker-compose exec workspace bash
 
